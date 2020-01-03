@@ -12,7 +12,7 @@ import java.math.BigInteger;
 /**
  * @author ：Gary Wu
  * @date ：Created in 12:10 2020/1/3
- * @description：
+ * @description： 计算一个数的阶乘
  * @modified By：
  * @version: $
  */
@@ -31,7 +31,6 @@ public class LargeFactorial {
             result = result.multiply(new BigInteger(i +""));
         }
         return result;
-
     }
 
 }
