@@ -1,6 +1,3 @@
-package src;
-
-import src.Course;
 
 /**
  * @author     ：Gary Wu
