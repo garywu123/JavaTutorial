@@ -31,5 +31,4 @@ public class TestCourse {
         System.out.println();
         System.out.println("Number of students in course: " + course2.getNumberOfStudents());
     }
-
 }
