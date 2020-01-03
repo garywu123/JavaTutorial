@@ -20,6 +20,5 @@ public class Test {
         Integer x = new Integer(10);
         System.out.println(x.intValue());
         System.out.println(x.compareTo(new Integer(4)));
-
     }
 }
