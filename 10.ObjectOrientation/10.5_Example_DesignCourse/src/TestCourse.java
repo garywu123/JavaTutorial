@@ -1,11 +1,6 @@
-/**
- * @author ：Gary Wu
- * @date ：Created in 22:11 2020/1/2
- * @description：
- * @modified By：
- * @version: $
- * @project: 10.ObjectOrientation
- */
+package src;
+
+import src.Course;
 
 /**
  * @author     ：Gary Wu
