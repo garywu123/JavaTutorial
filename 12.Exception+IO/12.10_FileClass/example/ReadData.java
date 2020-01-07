@@ -15,15 +15,25 @@ import java.util.Scanner;
 public class ReadData {
     public static void main(String[] args) throws FileNotFoundException {
         File file = new File("scores.txt");
-        Scanner scanner = new Scanner(file);
+        readFile(file);
 
-        while (scanner.hasNext()) {
+        /*while (scanner.hasNext()) {
             String firstName = scanner.next();
             String middleName = scanner.next();
             String lastName = scanner.next();
             int score = scanner.nextInt();
             System.out.println(firstName + " " + middleName + " " + lastName + " score " + score);
         }
-        scanner.close();
+        scanner.close();*/
+    }
+
+    public static void readFile(File file) throws FileNotFoundException {
+        try (Scanner inputScanner = new Scanner(file)) {
+            while (inputScanner.hasNext()) {
+                int intValue = inputScanner.nextInt();
+                String line = inputScanner.nextLine(); // nextLine 是以行分隔符结束的
+                System.out.println(intValue + "||" + line);
+            }
+        }
     }
 }
