@@ -8,6 +8,12 @@ import java.util.Date;
  * @project JavaTutorial_2
  * @Description 程序清单 13-1 抽象类
  */
+
+/**
+ * 这个是所有几何图形的抽象类
+ * 当你在实例化一个它的子类的时候，会先调用其父类，也就是该抽象类的构造方法
+ * 从而实例化父类中的数据域
+ * */
 public abstract class GeometricObject {
 
     private String color = "white";
