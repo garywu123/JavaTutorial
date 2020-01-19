@@ -29,6 +29,5 @@ public class TestGeometricObject {
         System.out.println();
         System.out.println("The area is " + object.getArea());
         System.out.println("该图形的周长为 " + object.getPerimeter());
-
     }
 }
