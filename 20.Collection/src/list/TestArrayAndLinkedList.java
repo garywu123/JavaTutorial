@@ -13,8 +13,6 @@ import java.util.ListIterator;
  * @version: $
  * @project: JavaTutorial_2
  */
-
-
 public class TestArrayAndLinkedList {
 
     public static void main(String[] args) {
@@ -35,18 +33,17 @@ public class TestArrayAndLinkedList {
         linkedList.add(1, "Red");
         linkedList.removeLast();
         linkedList.addFirst("green");
-
         System.out.println("打印创建的链表");
         ListIterator<Object> listIterator = linkedList.listIterator();
         while (listIterator.hasNext()) {
-            System.out.println(listIterator.next());
+            System.out.print(listIterator.next() + "  ");
         }
         System.out.println();
 
         System.out.println("反向打印创建的链表");
         listIterator = linkedList.listIterator(linkedList.size());
         while (listIterator.hasPrevious()) {
-            System.out.println(listIterator.previous());
+            System.out.print(listIterator.previous()+ "  ");
         }
     }
 }
