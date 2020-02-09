@@ -1,4 +1,4 @@
-package comparator;/**
+package treeset.src.treeset;/**
  * @author ：Gary Wu
  * @date ：Created in 11:48 2020/2/4
  * @description：利用 GeometricObject类，定义一个比较器

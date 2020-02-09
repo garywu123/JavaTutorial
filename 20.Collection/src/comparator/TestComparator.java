@@ -18,7 +18,7 @@ package comparator;/**
 public class TestComparator {
 
     public static void main(String[] args) {
-        GeometricObject object1 = new Rectangle(3, 2);
+        GeometricObject object1 = new Rectangle(300, 2);
         GeometricObject object2 = new Circle(5);
 
         GeometricObject g = max(object1, object2, new GeometricObjectComparator());
