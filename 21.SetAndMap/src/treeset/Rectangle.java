@@ -1,4 +1,4 @@
-package treeset.src.treeset;
+package treeset;
 
 /**
  * Created by Gary Wu.
