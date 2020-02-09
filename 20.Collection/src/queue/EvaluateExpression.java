@@ -1,13 +1,5 @@
-package queue;/**
- * @author ：Gary Wu
- * @date ：Created in 16:47 2020/2/5
- * @description：
- * @modified By：
- * @version: $
- * @project: JavaTutorial_2
- */
+package queue;
 
-import java.net.InterfaceAddress;
 import java.util.Stack;
 
 /**
