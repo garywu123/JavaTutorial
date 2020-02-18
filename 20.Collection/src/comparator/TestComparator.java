@@ -20,6 +20,7 @@ public class TestComparator {
     public static void main(String[] args) {
         GeometricObject object1 = new Rectangle(300, 2);
         GeometricObject object2 = new Circle(5);
+        System.out.println("test");
 
         GeometricObject g = max(object1, object2, new GeometricObjectComparator());
         System.out.println("面积更加大的对象是：" + g.getArea());
